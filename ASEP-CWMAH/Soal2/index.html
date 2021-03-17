@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soal 2</title>
+  <title>Aplikasi Mading</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="user-login">
-    <h2>Madding</h2>
-    <form id="elForm">
-      <table>
-        <tr><td>Username : <input type="text" id="username"> </td></tr>
-        <tr><td>Password : <input type="text" id="password"> </td></tr>
-        <tr><td><button type="submit">Login</button></td></tr>
-      </table>
-    </form>
-  </div>
-  <div class="daftar-kegiatan">
+  <h3>Mading</h3>
+  <div id="login-form">
     <table>
+      <form id="login">
+        <tr><td>Username : <input type="text" id="username"></td></tr>
+        <tr><td>Password : <input type="password" id="password"></td></tr>
+        <tr><td><button type="submit">Login</button></td></tr>
+      </form>
+    </table>
+  </div>
+  <div id="madding">
+    <table border="1px">
       <thead>
         <th>No</th>
         <th>Kegiatan</th>
@@ -27,11 +27,10 @@
         <th>Poster</th>
         <th>Act</th>
       </thead>
-      <tbody id="madding"></tbody>
+      <tbody id="listKegiatan"></tbody>
     </table>
-    <div id="message">
-    </div>
   </div>
+  <div id="info"></div>
   <script src="./app.js"></script>
 </body>
 </html>

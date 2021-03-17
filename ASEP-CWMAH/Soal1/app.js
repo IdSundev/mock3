@@ -23,8 +23,6 @@ let lelangArr = (num) => {
   barangLelang.forEach((val) => result += `Nama Barang = ${val.nama} , harga = Rp. ${val.harga}\n`)
   return result
 }
-
-console.log("Kak kok hasilnya di soal beda sama pas di coding ya harusnya dimenit pertama celana jadi 24000 ya?")
 console.log(lelangArr(1))
 console.log(lelangArr(5))
 console.log(lelangArr(10))
